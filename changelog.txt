@@ -1,0 +1,25 @@
+Conversion Log for files in this repository
+
+Most files were created with office applications like MS Word and MS Excel or with Google Docs and Googel Spreadsheets.
+This means that the files have to be converted into open formats that are both human and machine-readable.
+In order to document all conversions and modifications to files, the log is used for detailed overviews.
+
+
+- Manuscript originally written in MS Word (for Mac)
+  - created 2017-06-29
+  - modified 2017-09-27
+  - size: 348 KB
+  - file contains text, layout (headings), two charts, footnotes, and comments
+- File was stored on private Google Drive.
+- File was accessed for further processing on 2019-09-06
+- Created copy of .docx file using Google Docs function "File --> Make a copy"
+- Converted to Google Docs using conversion function in Google Docs "File --> Save as Google Docs"
+- Then downloaded file as .html file (this creates a .zip)
+- Unzipped the .zip which unpacks a folder containing the manuscript as a .html file and two images in .png containing the charts
+- Changed filename from "CopyofDeutschanNorwegischenHochschulen_201706.html" to "tyskinorge_script.html" (more convenient)
+- used ```pandoc`` to convert from .html to .md using the following script
+
+```pandoc tyskinorge_script.html -f html -t markdown -s -o tyskinorge.md```
+
+- moved .md file into "tyskinorge"-repository
+- moved .png files (the charts) into "tyskinorge"-repository
