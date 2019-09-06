@@ -23,3 +23,8 @@ In order to document all conversions and modifications to files, the log is used
 
 - moved .md file into "tyskinorge"-repository
 - moved .png files (the charts) into "tyskinorge"-repository
+
+- a brief check of the file showed that the comments were not included (likely lost in the conversion from GoogleDocs to .html),
+these need to be added to the file in some form
+- the check also revealed some layout issues, likely due to the multiple conversions; I think the information loss here is negligible
+- TASK: edit tyskinorge_script.md to proper markdown
